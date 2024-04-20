@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height:100%;
+}
+.container{
+    max-width: 95vw;
+    padding: 4rem;
+    background-color: rgb(212, 220, 220);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+.header1{
+    margin-bottom: 2.5rem;
+}
+.h1{
+    margin-bottom:2rem ;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.para1{
+    text-align: center;
+    color: rgb(33, 30, 30);
+}
+.maincontainer{
+    display: grid;
+    gap:1.4rem;
+    grid-template-columns: repeat(2,1fr);
+    border: 2px solid black;
+
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    bottom: 1px solid rgb(52, 43, 43);
+    border-radius: 3px;
+}
+.card1:hover .image1{
+    transform: scale(1.2);
+}
+.image{
+    position: relative;
+    overflow: hidden;
+    height:14rem;
+    box-shadow: 2px 2px 2px 1px rgb(84, 84, 99);
+}
+.image1{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+    color: rgb(27, 24, 24);
+    margin-bottom: 0.5rem;
+
+}
+.title:hover .h2{
+    color: rgb(19, 19, 165);
+}
+.des1{
+    color: rgb(44, 24, 24);
+}
+.authorcontainer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+.avatar1{
+    height: 100px;
+    width:100px;
+    border: 1px solid rgb(46, 40, 40);
+    border-radius: 50%;
+}
+.authorinfo{
+    font-size: 0.8rem;
+    color: rgb(67, 67, 155);
+}
+.authortag{
+    box-shadow: 2px 2px rgb(90, 90, 138);
+}
